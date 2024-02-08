@@ -213,7 +213,7 @@ test(countSomething([true, true, 1, 0, 1, false, 1]), "NUMBER COUNT: 4");
 
 
 
-// 関数 each を宣言してください。
+//問題１０　関数 each を宣言してください。
 function each(collection, cbFunction) {
   if (Array.isArray(collection) === true) {
     for (let i = 0; i < collection.length; i++) {
